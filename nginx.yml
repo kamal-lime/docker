@@ -19,7 +19,7 @@
 
   - name: copy nginx config
     copy:
-      src: /tmp/nginx.conf
+      src: /tmp/docker/nginx.conf
       dest: /etc/nginx/
       backup: yes
 
